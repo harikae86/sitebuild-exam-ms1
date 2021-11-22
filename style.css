@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+section {
+  width: 100vw;
+  height: 100vh;
+  padding: 3rem 3rem;
+  position: relative;
+}
+
+#section-1 {
+  background-color: rgb(236, 236, 236);
+}
+
+#section-2 {
+  background-color: rgb(197, 197, 197);
+}
+
+button {
+  position: absolute;
+  border: none;
+}
+#section-1 > button:nth-of-type(1) {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(197, 197, 197);
+}
+
+button:nth-child(3) {
+  right: 40px;
+  background-color: rgb(197, 197, 197);
+}
+
+button:nth-last-child(1) {
+  width: 200px;
+  height: 60px;
+  bottom: 40px;
+}
+
+#section-2 > button {
+  right: 50%;
+  transform: translate(50%, 0);
+  background-color: rgb(236, 236, 236);
+}
